@@ -24,7 +24,7 @@ import mech6 from '../../resources/homepage/mechanicPictures/Picture6.webp';
 
 function Homepage() {
   return (
-    <div className="App">
+    <div className="Homepage">
       <NavigationBar></NavigationBar>
       <Container className='d-flex align-center justify-content-center bg-light'>
         <Image src={landingPageImage} fluid className='mt-2'/>
