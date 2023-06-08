@@ -62,6 +62,9 @@ function App() {
                     it's bolt on accessories or fully custom 
                     fabricated exhaust work.
                   </Card.Text>
+                  <div className='text-center'>
+                    <Button variant="dark">Learn More</Button>
+                  </div>
                 </Card.Body>
               </Card>
             </Col>
