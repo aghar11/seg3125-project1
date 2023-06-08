@@ -1,7 +1,7 @@
-import './App.css';
+import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import landingPageImage from './resources/homepage/landingPageImage.jpg';
-import NavigationBar from './components/shared/NavigationBar';
+import landingPageImage from '../../resources/homepage/landingPageImage.jpg';
+import NavigationBar from '../shared/NavigationBar';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -11,18 +11,18 @@ import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import Form from 'react-bootstrap/Form';
 
-import regMaintenanceImage from './resources/homepage/regMaintenance.jpg';
-import perfModsImage from './resources/homepage/perfMods.jpg';
-import tuningImage from './resources/homepage/tuning.jpg';
+import regMaintenanceImage from '../../resources/homepage/regMaintenance.jpg';
+import perfModsImage from '../../resources/homepage/perfMods.jpg';
+import tuningImage from '../../resources/homepage/tuning.jpg';
 
-import mech1 from './resources/homepage/mechanicPictures/Picture1.jpg';
-import mech2 from './resources/homepage/mechanicPictures/Picture2.jpg';
-import mech3 from './resources/homepage/mechanicPictures/Picture3.jpg';
-import mech4 from './resources/homepage/mechanicPictures/Picture4.jpg';
-import mech5 from './resources/homepage/mechanicPictures/Picture5.jpg';
-import mech6 from './resources/homepage/mechanicPictures/Picture6.webp';
+import mech1 from '../../resources/homepage/mechanicPictures/Picture1.jpg';
+import mech2 from '../../resources/homepage/mechanicPictures/Picture2.jpg';
+import mech3 from '../../resources/homepage/mechanicPictures/Picture3.jpg';
+import mech4 from '../../resources/homepage/mechanicPictures/Picture4.jpg';
+import mech5 from '../../resources/homepage/mechanicPictures/Picture5.jpg';
+import mech6 from '../../resources/homepage/mechanicPictures/Picture6.webp';
 
-function App() {
+function Homepage() {
   return (
     <div className="App">
       <NavigationBar></NavigationBar>
@@ -257,4 +257,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;
