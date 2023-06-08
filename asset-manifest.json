@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/seg3125-project1/static/css/main.073c9b0a.css",
-    "main.js": "/seg3125-project1/static/js/main.9cf29117.js",
+    "main.css": "/seg3125-project1/static/css/main.d20202a4.css",
+    "main.js": "/seg3125-project1/static/js/main.a55165b6.js",
     "static/js/787.34eb16be.chunk.js": "/seg3125-project1/static/js/787.34eb16be.chunk.js",
-    "static/media/logo.svg": "/seg3125-project1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/tuning.jpg": "/seg3125-project1/static/media/tuning.9b7766b22b53f74a3b97.jpg",
+    "static/media/landingPageImage.jpg": "/seg3125-project1/static/media/landingPageImage.c5b242e04ec0c835ba1c.jpg",
+    "static/media/perfMods.jpg": "/seg3125-project1/static/media/perfMods.39bb2b3c28e753ad1ace.jpg",
+    "static/media/regMaintenance.jpg": "/seg3125-project1/static/media/regMaintenance.55c337471479820ff47d.jpg",
+    "static/media/logo.png": "/seg3125-project1/static/media/logo.b8e2ded763ddb64e2dd0.png",
     "index.html": "/seg3125-project1/index.html",
-    "main.073c9b0a.css.map": "/seg3125-project1/static/css/main.073c9b0a.css.map",
-    "main.9cf29117.js.map": "/seg3125-project1/static/js/main.9cf29117.js.map",
+    "main.d20202a4.css.map": "/seg3125-project1/static/css/main.d20202a4.css.map",
+    "main.a55165b6.js.map": "/seg3125-project1/static/js/main.a55165b6.js.map",
     "787.34eb16be.chunk.js.map": "/seg3125-project1/static/js/787.34eb16be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9cf29117.js"
+    "static/css/main.d20202a4.css",
+    "static/js/main.a55165b6.js"
   ]
 }
