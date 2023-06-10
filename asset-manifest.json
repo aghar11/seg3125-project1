@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/seg3125-project1/static/css/main.fa03c493.css",
-    "main.js": "/seg3125-project1/static/js/main.1ad34708.js",
+    "main.js": "/seg3125-project1/static/js/main.9ec93dc1.js",
     "static/js/787.34eb16be.chunk.js": "/seg3125-project1/static/js/787.34eb16be.chunk.js",
     "static/media/tuning.jpg": "/seg3125-project1/static/media/tuning.9b7766b22b53f74a3b97.jpg",
     "static/media/maintenanceLandingPicture.jpg": "/seg3125-project1/static/media/maintenanceLandingPicture.470fc6f9f2f8e72139ec.jpg",
-    "static/media/landingPageImage.webp": "/seg3125-project1/static/media/landingPageImage.3f1a495128190380b765.webp",
+    "static/media/landingPageImage.webp": "/seg3125-project1/static/media/landingPageImage.348c076b028be1d57dee.webp",
     "static/media/Picture6.webp": "/seg3125-project1/static/media/Picture6.5536ded6eb108eea2f6e.webp",
     "static/media/landingPageImage.jpg": "/seg3125-project1/static/media/landingPageImage.c5b242e04ec0c835ba1c.jpg",
     "static/media/perfMods.jpg": "/seg3125-project1/static/media/perfMods.39bb2b3c28e753ad1ace.jpg",
@@ -18,11 +18,11 @@
     "static/media/Picture2.jpg": "/seg3125-project1/static/media/Picture2.4bf946112296e12b60dc.jpg",
     "index.html": "/seg3125-project1/index.html",
     "main.fa03c493.css.map": "/seg3125-project1/static/css/main.fa03c493.css.map",
-    "main.1ad34708.js.map": "/seg3125-project1/static/js/main.1ad34708.js.map",
+    "main.9ec93dc1.js.map": "/seg3125-project1/static/js/main.9ec93dc1.js.map",
     "787.34eb16be.chunk.js.map": "/seg3125-project1/static/js/787.34eb16be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa03c493.css",
-    "static/js/main.1ad34708.js"
+    "static/js/main.9ec93dc1.js"
   ]
 }
