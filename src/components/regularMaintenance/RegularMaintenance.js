@@ -11,6 +11,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import React, { useState, useRef } from "react";
 import Modal from 'react-bootstrap/Modal';
+import { Ratio } from "react-bootstrap";
 
 import mech1 from '../../resources/homepage/mechanicPictures/Picture1.jpg';
 import mech2 from '../../resources/homepage/mechanicPictures/Picture2.jpg';
@@ -336,7 +337,9 @@ function RegularMaintenance() {
                         <Card className="h-100">
                             <Card.Body>
                                 <Card.Title>Availabilty</Card.Title>
-                                <Card.Body> ADD GOOGLE CALENDAR WITH AVAILABILITY HERE</Card.Body>
+                                <Ratio>
+                                    <iframe title="availibilityCalender" src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=America%2FToronto&showTitle=1&title=Pitstop%20Performance%20Availability&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&mode=WEEK&showTz=0&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%2333B679"></iframe>
+                                </Ratio>
                             </Card.Body>
                         </Card>
                     </Col>
