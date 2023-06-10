@@ -338,7 +338,7 @@ function RegularMaintenance() {
                             <Card.Body>
                                 <Card.Title>Availabilty</Card.Title>
                                 <Ratio>
-                                    <iframe title="availibilityCalender" src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=America%2FToronto&showTitle=1&title=Pitstop%20Performance%20Availability&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&mode=WEEK&showTz=0&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%2333B679"></iframe>
+                                    <iframe title="availabilityCalender" src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=America%2FToronto&showTitle=0&showNav=1&showDate=1&showTabs=0&showPrint=0&showCalendars=0&mode=WEEK&src=YzhlOGVmYmZkOWJjNTNkNDNlYjI5NGRhMDRmNGUzMTg3ZmJjNTNjMmMzNDRlNzJhYWUxNGVhZTM4OWVhYzFkOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4"></iframe>
                                 </Ratio>
                             </Card.Body>
                         </Card>
