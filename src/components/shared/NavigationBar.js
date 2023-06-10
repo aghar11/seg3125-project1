@@ -3,9 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import LinkContainer from 'react-router-bootstrap/LinkContainer';
 
 function NavigationBar() {
     return (
+      <>
         <Navbar bg="white" expand="lg">
           <Container>
             <Navbar.Brand href="#home">
@@ -19,23 +21,25 @@ function NavigationBar() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#contact">Contact Us</Nav.Link>
+                <LinkContainer to="/seg3125-project1/home">
+                  <Nav.Link>Home</Nav.Link>
+                </LinkContainer>
                 <NavDropdown title="Services" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Regular Maintenance</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Performance Modifications
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">ECU Tuning and Support</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Meet Our Team
-                  </NavDropdown.Item>
+                  <LinkContainer to="/seg3125-project1/regularMaintenance">
+                    <NavDropdown.Item>Regular Maintenance</NavDropdown.Item>
+                  </LinkContainer>
+                  <LinkContainer to="/seg3125-project1/performanceModifications">
+                    <NavDropdown.Item>Performance Modifications</NavDropdown.Item>
+                  </LinkContainer>
+                  <LinkContainer to="/seg3125-project1/tuning">
+                    <NavDropdown.Item>Tuning</NavDropdown.Item>
+                  </LinkContainer>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
+      </>
     );
 }
 

@@ -10,6 +10,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import Form from 'react-bootstrap/Form';
+import LinkContainer from 'react-router-bootstrap/LinkContainer';
 
 import regMaintenanceImage from '../../resources/homepage/regMaintenance.jpg';
 import perfModsImage from '../../resources/homepage/perfMods.jpg';
@@ -45,9 +46,11 @@ function Homepage() {
                 <Card.Text>
                   Our factory trained technicians can help with all regular maintenance on all types of exotic or domestic cars, like oil changes, tire replacement, or brake changes.
                 </Card.Text>
-                <div className='text-center'>
-                  <Button variant="dark">Learn More</Button>
-                </div>
+                <LinkContainer to="/seg3125-project1/regularMaintenance">
+                  <div className='text-center'>
+                    <Button variant="dark">Learn More</Button>
+                  </div>
+                </LinkContainer>
               </Card.Body>
             </Card>
           </Col>
@@ -62,9 +65,11 @@ function Homepage() {
                   it's bolt on accessories or fully custom 
                   fabricated exhaust work.
                 </Card.Text>
-                <div className='text-center'>
-                  <Button variant="dark">Learn More</Button>
-                </div>
+                <LinkContainer to="/seg3125-project1/performanceModifications">
+                  <div className='text-center'>
+                    <Button variant="dark">Learn More</Button>
+                  </div>
+                </LinkContainer>
               </Card.Body>
             </Card>
           </Col>
@@ -79,9 +84,11 @@ function Homepage() {
                   can build custom performance tunes to help
                   you get the most out of your vehicle.
                 </Card.Text>
-                <div className='text-center'>
-                  <Button variant="dark">Learn More</Button>
-                </div>
+                <LinkContainer to="/seg3125-project1/tuning">
+                  <div className='text-center'>
+                    <Button variant="dark">Learn More</Button>
+                  </div>
+                </LinkContainer>
               </Card.Body>
             </Card>
           </Col>
@@ -121,7 +128,7 @@ function Homepage() {
                   <Card.Body>
                     <Card.Title className='text-center'>Sally</Card.Title>
                     <Card.Text>
-                      Sally has been a mechanic fro 12 years and specializes in custom fabrication work.
+                      Sally has been a mechanic for 12 years and specializes in custom fabrication work.
                     </Card.Text>
                   </Card.Body>
                 </Card>
