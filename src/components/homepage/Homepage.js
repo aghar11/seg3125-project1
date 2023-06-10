@@ -101,7 +101,6 @@ function Homepage() {
         <Carousel variant='dark'>
           <Carousel.Item>
             <Container className='d-flex align-center justify-content-center container-fluid mt-1'>
-              
               <Card style={{ width: '22rem' , height: "500px", margin: 5}}>
                 <Card.Img variant="top" src={mech2} />
                 <Card.Body>
@@ -152,7 +151,7 @@ function Homepage() {
                 <Card.Body>
                   <Card.Title className='text-center'>Dave</Card.Title>
                   <Card.Text>
-                    John has been a mechanic for 15 
+                    Dave has been a mechanic for 15 
                     years and specializes in tire installation and alignments.
                   </Card.Text>
                 </Card.Body>
