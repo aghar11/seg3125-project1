@@ -166,7 +166,7 @@ function Homepage() {
       <Container className='d-flex align-center justify-content-center container-fluid mt-3'>
         <Row>
           <Col>
-            <Card style={{ width: '26rem', height: "430px" }}>
+            <Card style={{ width: '26rem', height: "475px" }}>
               <Card.Body>
                 <Card.Title className='text-center'>
                   <h4>Contact Us!</h4>
@@ -183,7 +183,7 @@ function Homepage() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: '26em' , height: "430px" }}>
+            <Card style={{ width: '26em' , height: "475px" }}>
               <Card.Body>
                 <Card.Title className='text-center'>
                   <h4>Come Visit!</h4>
@@ -216,7 +216,7 @@ function Homepage() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: '26rem', height: "430px" }}>
+            <Card style={{ width: '26rem', height: "475px" }}>
               <Card.Body>
                 <Card.Title className='text-center'>
                   <h4>Let Us Know!</h4>
@@ -244,6 +244,9 @@ function Homepage() {
                     <Form.Label>Message</Form.Label>
                     <Form.Control placeholder='Enter message'/>
                   </Form.Group>
+                  <Button variant='dark' type="submit">
+                    Send
+                  </Button>
                 </Form>
               </Card.Body>
             </Card>
