@@ -46,7 +46,7 @@ function Homepage() {
                 <Card.Text>
                   Our factory trained technicians can help with all regular maintenance on all types of exotic or domestic cars, like oil changes, tire replacement, or brake changes.
                 </Card.Text>
-                <LinkContainer to="/seg3125-project1/regularMaintenance">
+                <LinkContainer to="/regularMaintenance">
                   <div className='text-center'>
                     <Button variant="dark">Learn More</Button>
                   </div>
@@ -65,7 +65,7 @@ function Homepage() {
                   it's bolt on accessories or fully custom 
                   fabricated exhaust work.
                 </Card.Text>
-                <LinkContainer to="/seg3125-project1/performanceModifications">
+                <LinkContainer to="/performanceModifications">
                   <div className='text-center'>
                     <Button variant="dark">Learn More</Button>
                   </div>
@@ -84,7 +84,7 @@ function Homepage() {
                   can build custom performance tunes to help
                   you get the most out of your vehicle.
                 </Card.Text>
-                <LinkContainer to="/seg3125-project1/tuning">
+                <LinkContainer to="/tuning">
                   <div className='text-center'>
                     <Button variant="dark">Learn More</Button>
                   </div>

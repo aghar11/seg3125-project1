@@ -10,28 +10,30 @@ function NavigationBar() {
       <>
         <Navbar bg="white" expand="lg">
           <Container>
-            <Navbar.Brand href="#home">
-              <img
-                src={logo}
-                height='40'
-                className='d-inline-block align-top'
-                alt='Pitstop Perf '
-              />
+            <Navbar.Brand>
+              <LinkContainer to="/">
+                <img
+                  src={logo}
+                  height='40'
+                  className='d-inline-block align-top'
+                  alt='Pitstop Perf '
+                />
+              </LinkContainer>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <LinkContainer to="/seg3125-project1/home">
+                <LinkContainer to="/">
                   <Nav.Link>Home</Nav.Link>
                 </LinkContainer>
                 <NavDropdown title="Services" id="basic-nav-dropdown">
-                  <LinkContainer to="/seg3125-project1/regularMaintenance">
+                  <LinkContainer to="/regularMaintenance">
                     <NavDropdown.Item>Regular Maintenance</NavDropdown.Item>
                   </LinkContainer>
-                  <LinkContainer to="/seg3125-project1/performanceModifications">
+                  <LinkContainer to="/performanceModifications">
                     <NavDropdown.Item>Performance Modifications</NavDropdown.Item>
                   </LinkContainer>
-                  <LinkContainer to="/seg3125-project1/tuning">
+                  <LinkContainer to="/tuning">
                     <NavDropdown.Item>Tuning</NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
