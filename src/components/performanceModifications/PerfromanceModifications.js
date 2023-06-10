@@ -32,7 +32,7 @@ function PerformanceModifications() {
     };
 
     return(
-        <div className="RegularMaintenance">
+        <div className="PerformanceModifications">
             <NavigationBar></NavigationBar>
             <Container className='d-flex align-center justify-content-center bg-light'>
                 <Image src={landingPageImage} fluid className='mt-2'/>
