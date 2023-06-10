@@ -3,7 +3,6 @@ import landingPageImage from "../../resources/tuning/landingPageImage.webp"
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import Carousel from 'react-bootstrap/Carousel';
 import Table from 'react-bootstrap/Table';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -13,13 +12,8 @@ import React, { useState, useRef } from "react";
 import Modal from 'react-bootstrap/Modal';
 import Ratio from "react-bootstrap/Ratio";
 
-import mech1 from '../../resources/shared/mechanicPictures/Picture1.jpg';
-import mech2 from '../../resources/shared/mechanicPictures/Picture2.jpg';
 import mech3 from '../../resources/shared/mechanicPictures/Picture3.jpg';
-import mech4 from '../../resources/shared/mechanicPictures/Picture4.jpg';
 import mech5 from '../../resources/shared/mechanicPictures/Picture5.jpg';
-import mech6 from '../../resources/shared/mechanicPictures/Picture6.webp';
-
 
 function Tuning() {
     const [show, setShow] = useState(false);
