@@ -16,12 +16,12 @@ import regMaintenanceImage from '../../resources/homepage/regMaintenance.jpg';
 import perfModsImage from '../../resources/homepage/perfMods.jpg';
 import tuningImage from '../../resources/homepage/tuning.jpg';
 
-import mech1 from '../../resources/homepage/mechanicPictures/Picture1.jpg';
-import mech2 from '../../resources/homepage/mechanicPictures/Picture2.jpg';
-import mech3 from '../../resources/homepage/mechanicPictures/Picture3.jpg';
-import mech4 from '../../resources/homepage/mechanicPictures/Picture4.jpg';
-import mech5 from '../../resources/homepage/mechanicPictures/Picture5.jpg';
-import mech6 from '../../resources/homepage/mechanicPictures/Picture6.webp';
+import mech1 from '../../resources/shared/mechanicPictures/Picture1.jpg';
+import mech2 from '../../resources/shared/mechanicPictures/Picture2.jpg';
+import mech3 from '../../resources/shared/mechanicPictures/Picture3.jpg';
+import mech4 from '../../resources/shared/mechanicPictures/Picture4.jpg';
+import mech5 from '../../resources/shared/mechanicPictures/Picture5.jpg';
+import mech6 from '../../resources/shared/mechanicPictures/Picture6.webp';
 
 function Homepage() {
   return (
