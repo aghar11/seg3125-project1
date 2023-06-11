@@ -6,10 +6,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import LinkContainer from 'react-router-bootstrap/LinkContainer';
 
 function NavigationBar() {
-    function refreshPage() {
-      window.location.reload(false);
-    }
-
     return (
       <>
         <Navbar bg="white" expand="lg">
@@ -31,7 +27,7 @@ function NavigationBar() {
                   <Nav.Link>Home</Nav.Link>
                 </LinkContainer>
                 <NavDropdown title="Services" id="basic-nav-dropdown">
-                  <LinkContainer to="/regularMaintenance" onClick={refreshPage}>
+                  <LinkContainer to="/regularMaintenance">
                     <NavDropdown.Item>Regular Maintenance</NavDropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/performanceModifications">
