@@ -140,11 +140,11 @@ function Tuning() {
                                     <Form ref={form} onSubmit={handleFormSubmit}>
                                         <Form.Group className='mb-3' controlId='formName'>
                                             <Form.Label>Name</Form.Label>
-                                            <Form.Control type="name" placeholder='Enter name' />
+                                            <Form.Control type="name" placeholder='Enter name' required/>
                                         </Form.Group>
                                         <Form.Group className="mb-3" controlId="formEmail">
                                             <Form.Label>Email address</Form.Label>
-                                            <Form.Control type="email" placeholder="Enter email"/>
+                                            <Form.Control type="email" placeholder="Enter email" required/>
                                             <Form.Text className="text-muted">
                                             We'll never share your email with anyone else.
                                             </Form.Text>
@@ -152,6 +152,7 @@ function Tuning() {
 
                                         <Form.Group className='mb-3' controlId='formSelection'>
                                             <Form.Label>Specialists</Form.Label>
+                                            <Form.Control required></Form.Control>
                                             <Form.Select>
                                                 <option selected>Select a specialist</option>
                                                 <option>Mark</option>
@@ -161,6 +162,7 @@ function Tuning() {
 
                                         <Form.Group className='mb-3' controlId='formSelection'>
                                             <Form.Label>Service</Form.Label>
+                                            <Form.Control required></Form.Control>
                                             <Form.Select>
                                                 <option selected>Select a service</option>
                                                 <option>Consultation</option>
@@ -172,11 +174,12 @@ function Tuning() {
 
                                         <Form.Group className='mb-3' controlId='formSelection'>
                                             <Form.Label>Date</Form.Label>
-                                            <Form.Control type="date" placeholder="Select date"/>
+                                            <Form.Control type="date" placeholder="Select date" required/>
                                         </Form.Group>
 
                                         <Form.Group className='mb-3' controlId='formSelection'>
                                             <Form.Label>Time</Form.Label>
+                                            <Form.Control required></Form.Control>
                                             <Form.Select>
                                                 <option selected>Select a time</option>
                                                 <option>9:00 AM</option>
