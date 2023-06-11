@@ -10,7 +10,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import Form from 'react-bootstrap/Form';
-import LinkContainer from 'react-router-bootstrap/LinkContainer';
 
 import regMaintenanceImage from '../../resources/homepage/regMaintenance.jpg';
 import perfModsImage from '../../resources/homepage/perfMods.jpg';
@@ -46,11 +45,9 @@ function Homepage() {
                 <Card.Text>
                   Our factory trained technicians can help with all regular maintenance on all types of exotic or domestic cars, like oil changes, tire replacement, or brake changes.
                 </Card.Text>
-                <LinkContainer to="/regularMaintenance">
-                  <div className='text-center'>
-                    <Button variant="dark">Learn More</Button>
-                  </div>
-                </LinkContainer>
+                <div className='text-center'>
+                  <Button variant="dark" href='/regularMaintenance'>Learn More</Button>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -65,11 +62,9 @@ function Homepage() {
                   it's bolt on accessories or fully custom 
                   fabricated exhaust work.
                 </Card.Text>
-                <LinkContainer to="/performanceModifications">
-                  <div className='text-center'>
-                    <Button variant="dark">Learn More</Button>
-                  </div>
-                </LinkContainer>
+                <div className='text-center'>
+                  <Button variant="dark" href='/performanceModifications'>Learn More</Button>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -84,11 +79,9 @@ function Homepage() {
                   can build custom performance tunes to help
                   you get the most out of your vehicle.
                 </Card.Text>
-                <LinkContainer to="/tuning">
-                  <div className='text-center'>
-                    <Button variant="dark">Learn More</Button>
-                  </div>
-                </LinkContainer>
+                <div className='text-center'>
+                  <Button variant="dark" href='/tuning'>Learn More</Button>
+                </div>
               </Card.Body>
             </Card>
           </Col>
