@@ -7,7 +7,7 @@ import Tuning from './components/tuning/Tuning';
 function App() {
     return (
         <Routes>
-            <Route exact path="/home" element={<Homepage/>} />
+            <Route exact path="/" element={<Homepage/>} />
             <Route exact path="/regularMaintenance" element={<RegularMaintenance/>} />
             <Route exact path="/performanceModifications" element={<PerformanceModifications/>} />
             <Route exact path="/tuning" element={<Tuning/>} />
