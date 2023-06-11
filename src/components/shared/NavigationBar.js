@@ -11,7 +11,7 @@ function NavigationBar() {
         <Navbar bg="white" expand="lg">
           <Container>
             <Navbar.Brand>
-              <LinkContainer to="/home">
+              <LinkContainer to="/">
                 <img
                   src={logo}
                   height='40'
@@ -23,7 +23,7 @@ function NavigationBar() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <LinkContainer to="/home">
+                <LinkContainer to="/">
                   <Nav.Link>Home</Nav.Link>
                 </LinkContainer>
                 <NavDropdown title="Services" id="basic-nav-dropdown">
