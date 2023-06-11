@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/seg3125-project1/static/css/main.fa03c493.css",
-    "main.js": "/seg3125-project1/static/js/main.8ac8bd07.js",
-    "static/js/787.34eb16be.chunk.js": "/seg3125-project1/static/js/787.34eb16be.chunk.js",
-    "static/media/tuning.jpg": "/seg3125-project1/static/media/tuning.9b7766b22b53f74a3b97.jpg",
-    "static/media/maintenanceLandingPicture.jpg": "/seg3125-project1/static/media/maintenanceLandingPicture.470fc6f9f2f8e72139ec.jpg",
-    "static/media/landingPageImage.webp": "/seg3125-project1/static/media/landingPageImage.348c076b028be1d57dee.webp",
-    "static/media/Picture6.webp": "/seg3125-project1/static/media/Picture6.5536ded6eb108eea2f6e.webp",
-    "static/media/landingPageImage.jpg": "/seg3125-project1/static/media/landingPageImage.c5b242e04ec0c835ba1c.jpg",
-    "static/media/perfMods.jpg": "/seg3125-project1/static/media/perfMods.39bb2b3c28e753ad1ace.jpg",
-    "static/media/Picture3.jpg": "/seg3125-project1/static/media/Picture3.00490da78550d2506fa9.jpg",
-    "static/media/regMaintenance.jpg": "/seg3125-project1/static/media/regMaintenance.55c337471479820ff47d.jpg",
-    "static/media/Picture5.jpg": "/seg3125-project1/static/media/Picture5.e887a876e7af0bed667e.jpg",
-    "static/media/Picture4.jpg": "/seg3125-project1/static/media/Picture4.83dbcfdb7d3b8174b5f2.jpg",
-    "static/media/Picture1.jpg": "/seg3125-project1/static/media/Picture1.2199d832f7b21a8782ad.jpg",
-    "static/media/logo.png": "/seg3125-project1/static/media/logo.b8e2ded763ddb64e2dd0.png",
-    "static/media/Picture2.jpg": "/seg3125-project1/static/media/Picture2.4bf946112296e12b60dc.jpg",
-    "index.html": "/seg3125-project1/index.html",
-    "main.fa03c493.css.map": "/seg3125-project1/static/css/main.fa03c493.css.map",
-    "main.8ac8bd07.js.map": "/seg3125-project1/static/js/main.8ac8bd07.js.map",
-    "787.34eb16be.chunk.js.map": "/seg3125-project1/static/js/787.34eb16be.chunk.js.map"
+    "main.css": "/pitstopPerformance/static/css/main.fa03c493.css",
+    "main.js": "/pitstopPerformance/static/js/main.edd0522d.js",
+    "static/js/787.34eb16be.chunk.js": "/pitstopPerformance/static/js/787.34eb16be.chunk.js",
+    "static/media/tuning.jpg": "/pitstopPerformance/static/media/tuning.9b7766b22b53f74a3b97.jpg",
+    "static/media/maintenanceLandingPicture.jpg": "/pitstopPerformance/static/media/maintenanceLandingPicture.470fc6f9f2f8e72139ec.jpg",
+    "static/media/landingPageImage.webp": "/pitstopPerformance/static/media/landingPageImage.348c076b028be1d57dee.webp",
+    "static/media/Picture6.webp": "/pitstopPerformance/static/media/Picture6.5536ded6eb108eea2f6e.webp",
+    "static/media/landingPageImage.jpg": "/pitstopPerformance/static/media/landingPageImage.c5b242e04ec0c835ba1c.jpg",
+    "static/media/perfMods.jpg": "/pitstopPerformance/static/media/perfMods.39bb2b3c28e753ad1ace.jpg",
+    "static/media/Picture3.jpg": "/pitstopPerformance/static/media/Picture3.00490da78550d2506fa9.jpg",
+    "static/media/regMaintenance.jpg": "/pitstopPerformance/static/media/regMaintenance.55c337471479820ff47d.jpg",
+    "static/media/Picture5.jpg": "/pitstopPerformance/static/media/Picture5.e887a876e7af0bed667e.jpg",
+    "static/media/Picture4.jpg": "/pitstopPerformance/static/media/Picture4.83dbcfdb7d3b8174b5f2.jpg",
+    "static/media/Picture1.jpg": "/pitstopPerformance/static/media/Picture1.2199d832f7b21a8782ad.jpg",
+    "static/media/logo.png": "/pitstopPerformance/static/media/logo.b8e2ded763ddb64e2dd0.png",
+    "static/media/Picture2.jpg": "/pitstopPerformance/static/media/Picture2.4bf946112296e12b60dc.jpg",
+    "index.html": "/pitstopPerformance/index.html",
+    "main.fa03c493.css.map": "/pitstopPerformance/static/css/main.fa03c493.css.map",
+    "main.edd0522d.js.map": "/pitstopPerformance/static/js/main.edd0522d.js.map",
+    "787.34eb16be.chunk.js.map": "/pitstopPerformance/static/js/787.34eb16be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa03c493.css",
-    "static/js/main.8ac8bd07.js"
+    "static/js/main.edd0522d.js"
   ]
 }
