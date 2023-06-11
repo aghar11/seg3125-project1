@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import LinkContainer from 'react-router-bootstrap/LinkContainer';
+import { NavLink } from 'react-router-dom';
 
 function NavigationBar() {
     return (
@@ -11,31 +12,31 @@ function NavigationBar() {
         <Navbar bg="white" expand="lg">
           <Container>
             <Navbar.Brand>
-              <LinkContainer to="/">
+              <NavLink to="/">
                 <img
                   src={logo}
                   height='40'
                   className='d-inline-block align-top'
                   alt='Pitstop Perf '
                 />
-              </LinkContainer>
+              </NavLink>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <LinkContainer to="/">
-                  <Nav.Link>Home</Nav.Link>
-                </LinkContainer>
+                <Nav.Link>
+                  <NavLink to='/'>Home</NavLink>
+                </Nav.Link>
                 <NavDropdown title="Services" id="basic-nav-dropdown">
-                  <LinkContainer to="/regularMaintenance">
-                    <NavDropdown.Item>Regular Maintenance</NavDropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/performanceModifications">
-                    <NavDropdown.Item>Performance Modifications</NavDropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/tuning">
-                    <NavDropdown.Item>Tuning</NavDropdown.Item>
-                  </LinkContainer>
+                  <NavDropdown.Item>
+                    <NavLink to="/regularMaintenance">Regular Maintenance</NavLink>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <NavLink to="/performanceModifications">Performance Modifications</NavLink>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <NavLink to="/tuning">Tuning</NavLink>
+                  </NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
