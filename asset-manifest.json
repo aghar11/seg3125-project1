@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pitstopPerformance/static/css/main.fa03c493.css",
-    "main.js": "/pitstopPerformance/static/js/main.d39701df.js",
+    "main.js": "/pitstopPerformance/static/js/main.ed1c1c37.js",
     "static/js/787.34eb16be.chunk.js": "/pitstopPerformance/static/js/787.34eb16be.chunk.js",
     "static/media/tuning.jpg": "/pitstopPerformance/static/media/tuning.9b7766b22b53f74a3b97.jpg",
     "static/media/maintenanceLandingPicture.jpg": "/pitstopPerformance/static/media/maintenanceLandingPicture.470fc6f9f2f8e72139ec.jpg",
@@ -18,11 +18,11 @@
     "static/media/Picture2.jpg": "/pitstopPerformance/static/media/Picture2.4bf946112296e12b60dc.jpg",
     "index.html": "/pitstopPerformance/index.html",
     "main.fa03c493.css.map": "/pitstopPerformance/static/css/main.fa03c493.css.map",
-    "main.d39701df.js.map": "/pitstopPerformance/static/js/main.d39701df.js.map",
+    "main.ed1c1c37.js.map": "/pitstopPerformance/static/js/main.ed1c1c37.js.map",
     "787.34eb16be.chunk.js.map": "/pitstopPerformance/static/js/787.34eb16be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa03c493.css",
-    "static/js/main.d39701df.js"
+    "static/js/main.ed1c1c37.js"
   ]
 }
